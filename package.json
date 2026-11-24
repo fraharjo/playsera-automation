@@ -1,0 +1,44 @@
+{
+  "name": "playsera-automation",
+  "version": "1.0.0",
+  "description": "Agentic Playwright Test Automation Framework: Playwright Test, TypeScript, Page Object Model, ISTQB-traceable Test Case Generator",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:api": "playwright test --project=api",
+    "test:web": "playwright test --project=chromium",
+    "test:report": "playwright show-report",
+    "lint:tags": "ts-node scripts/lint-tags.ts",
+    "req:extract": "ts-node scripts/extract-requirement.ts",
+    "check:generated": "ts-node scripts/check-generated.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "typescript",
+    "page-object-model",
+    "istqb",
+    "test-generator",
+    "qa-engineering"
+  ],
+  "author": "Fadli Raharjo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.7",
+    "mammoth": "^1.13.0",
+    "pdf-parse": "^2.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.0"
+  }
+}

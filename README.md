@@ -48,8 +48,16 @@ npm run test:report
 
 This repository comes equipped with `.agents/skills/playsera-test-generator`, an agentic skill that turns business requirements (PRDs, Jira tickets, Figma mockups, User Stories) into high-rigor, traceable Playwright test suites.
 
-### How to Trigger in Chat
+### How to Trigger in Chat / Cara Memanggil di Chat
+
+**English**:
 Simply mention:
+- *"Help me generate Playwright test cases for this login requirement..."*
+- *"Create a test design and spec for the checkout feature below..."*
+- *"Analyze the PRD in requirements/inputs/onboarding/PRD.pdf and generate its test suites..."*
+
+**Bahasa Indonesia**:
+Cukup ketik perintah seperti:
 - *"Bantu generate test case Playwright untuk requirement login ini..."*
 - *"Buat test design dan spec untuk fitur checkout berikut..."*
 - *"Analisis PRD di requirements/inputs/onboarding/PRD.pdf lalu generate test suites-nya..."*
